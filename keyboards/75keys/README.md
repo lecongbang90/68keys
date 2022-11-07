@@ -9,14 +9,14 @@ Hardware Availability: [DIY Guide](https://68keys.io)
 Make example for this keyboard (after setting up your build environment):
 
 ```bash
-$ > cd qmk_firmware/
+$ > cd /c/68keys
 $ > make 75keys:default
 ```
 
 Example of flashing this keyboard:
 
 ```bash
-$ > cd qmk_firmware/
+$ > cd /c/68keys
 $ > make 75keys:default:avrdude
 ```
 
